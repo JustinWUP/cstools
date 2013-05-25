@@ -8,7 +8,7 @@ class Doctrine
     public function __construct()
     {
         // include our CodeIgniter application's database configuration
-        require_once APPPATH.'/config/' .ENVIRONMENT. '/database.php';
+        require APPPATH.'/config/' .ENVIRONMENT. '/database.php';
         
         // include Doctrine's fancy ClassLoader class
         require_once APPPATH.'libraries/Doctrine/Common/ClassLoader.php';
