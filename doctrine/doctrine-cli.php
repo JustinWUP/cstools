@@ -3,7 +3,7 @@
 // trailing slash is important!
 define('APPPATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
 define('BASEPATH', APPPATH);
-require '../environment.php';
+require 'config/environment.php';
 
 require APPPATH.'libraries/Doctrine.php';
 
